@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns="https://java.sun.com/xml/ns/javaee" xsi:schemaLocation="https://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+ <display-name>Gestion Projets</display-name>
+<taglib>
+    <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+    <taglib-location>/WEB-INF/lib/c.tld</taglib-location>
+</taglib>
+    
+    <welcome-file-list>
+        <welcome-file>home.jsp</welcome-file>
+    </welcome-file-list>
+    
+    
+    <!-- ProjectController servlet -->
+    <servlet>
+        <servlet-name>projectServlet</servlet-name>
+        <servlet-class>com.projet.mvc.controller.ProjectController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>projectServlet</servlet-name>
+        <url-pattern>/ProjectController</url-pattern>
+    </servlet-mapping>
+
+    <!-- TaskController servlet -->
+    <servlet>
+        <servlet-name>taskServlet</servlet-name>
+        <servlet-class>com.projet.mvc.controller.TaskController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>taskServlet</servlet-name>
+        <url-pattern>/TaskController</url-pattern>
+    </servlet-mapping>    
+</web-app>
