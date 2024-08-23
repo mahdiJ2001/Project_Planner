@@ -2,8 +2,7 @@
 
 ## Overview
 
-The **Project Planner** is a Java Enterprise Edition (JEE) application designed to assist project managers in planning and managing projects. This tool allows the creation of tasks, assignment of team members to tasks, and management of time constraints, skills, holidays, and vacations. The main objective is to achieve optimal project durations.
-
+The **Project Planner** is a Java Enterprise Edition (JEE) application designed to assist project managers in planning and managing projects.This project was developed to explore and apply Java EE concepts, such as JPA, JDBC, Hibernate, and Servlets, and to better understand object-oriented programming principles like polymorphism, encapsulation, inheritance, and abstraction.
 ## Project Architecture
 
 The application is divided into two sub-projects:
@@ -60,7 +59,5 @@ The application is divided into two sub-projects:
 ### List of Tasks
 ![List of Tasks](assets/TASKLIST.png)
 
-## Additional Information
 
-This project was developed to explore and apply Java EE concepts, such as JPA, JDBC, Hibernate, and Servlets, and to better understand object-oriented programming principles like polymorphism, encapsulation, inheritance, and abstraction.
 
